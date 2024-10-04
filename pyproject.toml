@@ -1,0 +1,22 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "example_package_uvg"
+version = "0.0.1"
+authors = [
+  { name="MLOPS", email="ald_20591@uvg.edu.gt" },
+]
+description = "A small example package"
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+Homepage = "https://github.com/EstebanAG1005/packaging_tutorial"
+Issues = "https://github.com/EstebanAG1005/packaging_tutorial/issues"
